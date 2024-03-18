@@ -1,0 +1,66 @@
+.Github {
+    height: calc(100vh - 90px);
+    width: 100%;
+}
+
+.GithubContant {
+    height: 65%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.GithubContant .GithubVideo {
+    height: 100%;
+    width: 45%;
+}
+
+.GithubContant .GithubText {
+    height: 100%;
+    width: 45%;
+    padding: 5px 20px;
+}
+
+.Github .GithubDom {
+    height: 35%;
+    width: 100%;
+    padding: 20px;
+    text-align: center;
+}
+
+@media (max-width:705px) {
+    .Github {
+        height: auto;
+    }
+
+    .GithubContant {
+        flex-direction: column;
+    }
+
+    .GithubContant .GithubVideo {
+        width: 100%;
+        height: 300px;
+    }
+
+    .GithubContant .GithubText {
+        width: 100%;
+    }
+
+    .GithubContant .GithubText h1 {
+        text-align: left;
+        margin-top: 20px;
+    }
+
+    .GithubContant .GithubText h1:nth-child(1) {
+        font-size: 20px;
+        line-height: 25px;
+    }
+
+    .Github .GithubDom h1 {
+        margin-top: 20px;
+    }
+
+    .Github .GithubDom h1:nth-last-child(1) {
+        margin-bottom: 100px;
+    }
+}

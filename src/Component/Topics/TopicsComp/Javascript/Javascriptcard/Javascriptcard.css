@@ -1,0 +1,34 @@
+.javascriptcard {
+    height: 300px;
+    width: 100%;
+    display: flex;
+    margin-bottom: 50px;
+}
+
+.javascriptcard .left-javascriptcard {
+    height: 100%;
+    width: 45%;
+}
+
+.javascriptcard .right-javascriptcard {
+    height: 100%;
+    width: 55%;
+    padding: 5px 20px;
+}
+
+@media (max-width:705px) {
+    .javascriptcard {
+        height: auto;
+        flex-direction: column;
+    }
+
+    .javascriptcard .left-javascriptcard {
+        width: 100%;
+        height: 300px;
+    }
+
+    .javascriptcard .right-javascriptcard {
+        width: 100%;
+        padding: 5px;
+    }
+}

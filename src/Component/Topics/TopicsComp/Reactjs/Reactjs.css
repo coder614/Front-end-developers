@@ -1,0 +1,16 @@
+.reactjs {
+    flex-wrap: wrap;
+    gap: 25px;
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+}
+
+@media (max-width:705px) {
+    .contact {
+        padding: 15px 10px;
+        text-align: left;
+        font-size: 20px;
+        line-height: 25px;
+    }
+}

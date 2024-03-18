@@ -1,0 +1,20 @@
+.javascript {
+    width: 100%;
+    padding: 20px;
+}
+
+.javascript .javascriptbox {
+    width: 80%;
+    margin: auto;
+    padding: 10px;
+}
+
+@media (max-width:705px) {
+    .javascript {
+        padding: 5px;
+    }
+
+    .javascript .javascriptbox {
+        width: 100%;
+    }
+}

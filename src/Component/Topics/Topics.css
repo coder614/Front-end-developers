@@ -1,0 +1,12 @@
+.topics {
+    flex-wrap: wrap;
+    gap: 25px;
+    display: flex;
+    justify-content: center;
+}
+
+@media (max-width:705px) {
+    .topics {
+        margin-bottom: 80px;
+    }
+}

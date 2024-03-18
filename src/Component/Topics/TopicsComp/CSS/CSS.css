@@ -1,0 +1,66 @@
+.css {
+    height: calc(100vh - 90px);
+    width: 100%;
+}
+
+.cssContant {
+    height: 65%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.cssContant .cssVideo {
+    height: 100%;
+    width: 45%;
+}
+
+.cssContant .cssText {
+    height: 100%;
+    width: 45%;
+    padding: 5px 20px;
+}
+
+.css .cssDom {
+    height: 35%;
+    width: 100%;
+    padding: 20px;
+    text-align: center;
+}
+
+@media (max-width:705px) {
+    .css {
+        height: auto;
+    }
+
+    .cssContant {
+        flex-direction: column;
+    }
+
+    .cssContant .cssVideo {
+        width: 100%;
+        height: 300px;
+    }
+
+    .cssContant .cssText {
+        width: 100%;
+    }
+
+    .cssContant .cssText h1 {
+        text-align: left;
+        margin-top: 20px;
+    }
+
+    .cssContant .cssText h1:nth-child(1) {
+        font-size: 20px;
+        line-height: 25px;
+    }
+
+    .css .cssDom h1 {
+        margin-top: 20px;
+    }
+
+    .css .cssDom h1:nth-last-child(1) {
+        margin-bottom: 100px;
+    }
+}
